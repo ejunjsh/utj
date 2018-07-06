@@ -1,0 +1,1 @@
+javac JavaVMStackSOF.java&&java -Xss228k JavaVMStackSOF

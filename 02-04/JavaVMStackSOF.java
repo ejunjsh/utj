@@ -1,5 +1,5 @@
 /**
- * VM Args：-Xss128k
+ * VM Args:-Xss128k
  * @author zzm
  */
 public class JavaVMStackSOF {
