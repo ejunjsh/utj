@@ -1,3 +1,9 @@
+import net.sf.cglib.proxy.Enhancer;
+import net.sf.cglib.proxy.MethodInterceptor;
+import net.sf.cglib.proxy.MethodProxy;
+
+import java.lang.reflect.Method;
+
 /**
  * VM Args： -XX:PermSize=10M -XX:MaxPermSize=10M
  * @author zzm
