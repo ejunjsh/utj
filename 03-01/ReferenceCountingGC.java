@@ -25,5 +25,9 @@ public class ReferenceCountingGC {
 		// 假设在这行发生GC，objA和objB是否能被回收？
 		System.gc();
 	}
+
+	public static void main(String[] args){
+		testGC();
+	}
 }
 

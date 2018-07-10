@@ -1,3 +1,4 @@
+public class test{
 private static final int _1MB = 1024 * 1024;
 
 /**
@@ -11,3 +12,7 @@ public static void testAllocation() {
  	allocation4 = new byte[4 * _1MB];  // 出现一次Minor GC
  }
 
+public static void main(String[] args){
+	testAllocation();
+}
+}

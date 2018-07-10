@@ -1,6 +1,9 @@
+import java.util.ArrayList;
+import java.util.List;
 /**
  * 内存占位符对象，一个OOMObject大约占64K
  */
+public class test{
 static class OOMObject {
 	public byte[] placeholder = new byte[64 * 1024];
 }
@@ -13,9 +16,10 @@ public static void fillHeap(int num) throws InterruptedException {
 		list.add(new OOMObject());
 	}
 	System.gc();
+	Thread.sleep(1000000);
 }
 
 public static void main(String[] args) throws Exception {
 	fillHeap(1000);
 }
-
+}
