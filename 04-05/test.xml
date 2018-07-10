@@ -1,0 +1,4 @@
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+  <Set name="contextPath">/test</Set>
+  <Set name="war">/opt/web</Set>
+</Configure>
