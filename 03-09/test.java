@@ -1,3 +1,4 @@
+public class test{
 private static final int _1MB = 1024 * 1024;
 
 /**
@@ -18,4 +19,9 @@ public static void testHandlePromotion() {
 	allocation6 = null;
 	allocation7 = new byte[2 * _1MB];
 }
+public static void main(String[] args){
+	testHandlePromotion();
+}
+}
+
 

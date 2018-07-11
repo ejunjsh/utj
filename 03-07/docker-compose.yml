@@ -1,0 +1,14 @@
+version: "3"
+services:
+
+  jdk7-1:
+    image: sjj050121014/jdk7:1.0
+    volumes:
+      - .:/root
+    command: sh run.sh
+ 
+  jdk7-15:
+    image: sjj050121014/jdk7:1.0
+    volumes:
+      - .:/root
+    command: sh run1.sh
