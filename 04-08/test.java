@@ -16,7 +16,6 @@ public static void fillHeap(int num) throws InterruptedException {
 		list.add(new OOMObject());
 	}
 	System.gc();
-	Thread.sleep(1000000);
 }
 
 public static void main(String[] args) throws Exception {

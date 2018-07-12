@@ -1,3 +1,8 @@
+# test result
+
+run below script in jvisualvm after you `run.sh`
+
+````java
 /* BTrace Script Template */
 import com.sun.btrace.annotations.*;
 import static com.sun.btrace.BTraceUtils.*;
@@ -5,7 +10,7 @@ import static com.sun.btrace.BTraceUtils.*;
 @BTrace
 public class TracingScript {
 	@OnMethod(
-    clazz="org.fenixsoft.monitoring.BTraceTest",
+    clazz="BTraceTest",
     method="add",
     location=@Location(Kind.RETURN)
 )
@@ -18,4 +23,4 @@ public static void func(@Self org.fenixsoft.monitoring.BTraceTest instance,int a
     println(strcat("方法结果:",str(result)));
 }
 }
-
+````

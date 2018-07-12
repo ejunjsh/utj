@@ -1,1 +1,1 @@
-javac -encoding utf8 test.java&&java -XX:+PrintGCDetails  -Xms100m -Xmx100m -XX:+UseSerialGC  -Djava.rmi.server.hostname=192.168.199.12 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false  -Dcom.sun.management.jmxremote.port=9798 test
+javac -encoding utf8 test.java&&java -XX:+PrintGCDetails  -Xms100m -Xmx100m -XX:+UseSerialGC test

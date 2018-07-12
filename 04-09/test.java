@@ -1,3 +1,6 @@
+import java.io.*; 
+
+public class test{
 /**
  * 线程死循环演示
  */
@@ -39,4 +42,4 @@ public static void main(String[] args) throws Exception {
     Object obj = new Object();
     createLockThread(obj);
 }
-
+}

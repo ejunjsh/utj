@@ -1,3 +1,5 @@
+import java.io.*; 
+
 public class BTraceTest {
 
 	public int add(int a, int b) {
