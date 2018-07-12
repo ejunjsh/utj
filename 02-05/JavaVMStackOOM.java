@@ -6,10 +6,17 @@ public class JavaVMStackOOM {
  
        private void dontStop() {
               while (true) {
+		try{
+		Thread.sleep(1000);
+		}
+		catch(Exception e){
+		 
+		}
               }
        }
  
        public void stackLeakByThread() {
+	      int count=0;
               while (true) {
                      Thread thread = new Thread(new Runnable() {
                             @Override
@@ -18,6 +25,8 @@ public class JavaVMStackOOM {
                             }
                      });
                      thread.start();
+		     count++;
+		System.out.println(count);
               }
        }
  
