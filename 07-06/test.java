@@ -1,3 +1,4 @@
+public class test{
 static class Parent {
 		public static int A = 1;
 		static {
@@ -13,3 +14,4 @@ public static void main(String[] args) {
 		System.out.println(Sub.B);
 }
 
+}

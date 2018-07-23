@@ -1,3 +1,4 @@
+import java.io.*;
 /**
  * 类加载器与instanceof关键字演示
  * 
@@ -25,10 +26,10 @@ public class ClassLoaderTest {
             }
         };
 
-        Object obj = myLoader.loadClass("org.fenixsoft.classloading.ClassLoaderTest").newInstance();
+        Object obj = myLoader.loadClass("ClassLoaderTest").newInstance();
 
         System.out.println(obj.getClass());
-        System.out.println(obj instanceof org.fenixsoft.classloading.ClassLoaderTest);
+        System.out.println(obj instanceof ClassLoaderTest);
     }
 }
 

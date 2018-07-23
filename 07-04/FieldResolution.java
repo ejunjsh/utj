@@ -17,6 +17,7 @@ public class FieldResolution {
 	}
 
 	static class Sub extends Parent implements Interface2 {
+		//you comment below code, the compiler will error for `reference to A is ambiguous`
 		public static int A = 4;
 	}
 

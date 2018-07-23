@@ -1,3 +1,4 @@
+public class test{
 static class DeadLoopClass {
     static {
         // 如果不加上这个if语句，编译器将提示“Initializer does not complete normally”并拒绝编译
@@ -23,4 +24,4 @@ public static void main(String[] args) {
     thread1.start();
     thread2.start();
 }
-
+}
