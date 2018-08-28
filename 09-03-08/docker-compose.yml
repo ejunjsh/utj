@@ -1,0 +1,10 @@
+version: "3"
+services:
+ 
+  jdk7:
+    image: sjj050121014/jdk7-jetty:1.0
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/root
+    command: sh run.sh
