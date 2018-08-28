@@ -1,3 +1,4 @@
+package com.mycode;
 import java.lang.reflect.*;
 /**
  * JavaClass执行工具
@@ -16,7 +17,7 @@ public class JavaClassExecuter {
     public static String execute(byte[] classByte) {
         HackSystem.clearBuffer();
         ClassModifier cm = new ClassModifier(classByte);
-        byte[] modiBytes = cm.modifyUTF8Constant("java/lang/System", "HackSystem");
+        byte[] modiBytes = cm.modifyUTF8Constant("java/lang/System", "com/mycode/HackSystem");
         HotSwapClassLoader loader = new HotSwapClassLoader();
         Class clazz = loader.loadByte(modiBytes);
         try {

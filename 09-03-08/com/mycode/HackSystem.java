@@ -1,3 +1,5 @@
+package com.mycode;
+
 import java.io.*;
 /**
  * 为JavaClass劫持java.lang.System提供支持

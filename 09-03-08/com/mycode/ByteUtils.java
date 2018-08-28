@@ -1,3 +1,4 @@
+package com.mycode;
 /**
  * Bytes数组处理工具
  * @author

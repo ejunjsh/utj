@@ -1,3 +1,5 @@
+package com.mycode;
+
 /**
  * 修改Class文件，暂时只提供修改常量池常量的功能
  * @author zzm 

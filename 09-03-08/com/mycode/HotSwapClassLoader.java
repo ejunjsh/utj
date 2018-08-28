@@ -1,3 +1,4 @@
+package com.mycode;
 /**
  * 为了多次载入执行类而加入的加载器<br>
  * 把defineClass方法开放出来，只有外部显式调用的时候才会使用到loadByte方法
