@@ -1,3 +1,5 @@
+import java.lang.reflect.*;
+
 public class DynamicProxyTest {
 
     interface IHello {
@@ -28,6 +30,7 @@ public class DynamicProxyTest {
     }
 
     public static void main(String[] args) {
+        //System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles","true");
         IHello hello = (IHello) new DynamicProxy().bind(new Hello());
         hello.sayHello();
     }
