@@ -1,3 +1,4 @@
+import java.util.*;
 public class GenericTypes {
 
     public static String method(List<String> list) {
