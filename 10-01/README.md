@@ -26,3 +26,6 @@ test1.java output(no `final`)
       LineNumberTable:
         line 4: 0
         line 6: 2
+
+
+you can run `sudo docker-compose run jdk6`,`sudo docker-compose run jdk7`,`sudo docker-compose run jdk8` to check the result.
