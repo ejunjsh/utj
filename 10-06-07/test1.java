@@ -1,3 +1,5 @@
+import java.util.*;
+public class test1{
 public static void main(String[] args) {
 	List list = Arrays.asList( new Integer[] {
 		 Integer.valueOf(1),
@@ -12,4 +14,4 @@ public static void main(String[] args) {
 	}
 	System.out.println(sum);
 }
-
+}

@@ -1,3 +1,4 @@
+public class test{
 public static void main(String[] args) {
 	Integer a = 1;
 	Integer b = 2;
@@ -14,3 +15,4 @@ public static void main(String[] args) {
 	System.out.println(g.equals(a + b));
 }
 
+}

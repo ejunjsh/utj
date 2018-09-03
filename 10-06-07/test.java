@@ -1,3 +1,5 @@
+import java.util.*;
+public class test{
 public static void main(String[] args) {
 	List<Integer> list = Arrays.asList(1, 2, 3, 4);
 	// 如果在JDK 1.7中，还有另外一颗语法糖 ，
@@ -8,4 +10,4 @@ public static void main(String[] args) {
 	}
 	System.out.println(sum);
 }
-
+}

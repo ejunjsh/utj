@@ -1,3 +1,4 @@
+public class test{
 public static void main(String[] args) {
 	if (true) {
 		System.out.println("block 1");
@@ -5,4 +6,4 @@ public static void main(String[] args) {
 		System.out.println("block 2");
 	}
 }
-
+}
