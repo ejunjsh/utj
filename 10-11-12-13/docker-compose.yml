@@ -1,0 +1,9 @@
+version: "3"
+services:
+
+  jdk6:
+    image: sjj050121014/jdk6:1.0
+    volumes:
+      - .:/root
+    command: sh run.sh
+ 
