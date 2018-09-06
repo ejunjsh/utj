@@ -1,3 +1,16 @@
+import javax.annotation.processing.Messager;
+import javax.annotation.processing.ProcessingEnvironment;
+import javax.lang.model.element.*;
+import javax.lang.model.util.ElementScanner6;
+
+import java.util.EnumSet;
+
+import static javax.lang.model.element.ElementKind.*;
+import static javax.lang.model.element.Modifier.FINAL;
+import static javax.lang.model.element.Modifier.PUBLIC;
+import static javax.lang.model.element.Modifier.STATIC;
+import static javax.tools.Diagnostic.Kind.WARNING;
+
 /**
  * 程序名称规范的编译器插件：<br>
  * 如果程序命名不合规范，将会输出一个编译器的WARNING信息
