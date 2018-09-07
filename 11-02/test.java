@@ -1,3 +1,4 @@
+public class test{
 public static final int NUM = 15000;
 
 public static int doubleValue(int i) {
@@ -20,3 +21,4 @@ public static void main(String[] args) {
 	}
 }
 
+}

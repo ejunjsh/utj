@@ -1,0 +1,1 @@
+javac -encoding utf8 test.java&&java -XX:+PrintCompilation -XX:+PrintInlining test&&java -XX:+PrintOptoAssembly test

@@ -1,3 +1,1 @@
-java -version
-java -Xint -version
-java -Xcomp -version
+java -version&&java -Xint -version&&java -Xcomp -version
