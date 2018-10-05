@@ -14,4 +14,4 @@
 
 # 后来
 
-忽然发现，很多不需要`docker`的，晕，好吧，没有`docker`的用直接`sh run.sh`运行程序也行吧
+忽然发现，很多不需要`docker`的，晕，好吧，没有`docker-compose.yml`文件的用直接`sh run.sh`运行程序也行吧
