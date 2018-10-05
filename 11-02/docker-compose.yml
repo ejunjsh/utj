@@ -1,8 +1,8 @@
 version: "3"
 services:
 
-  jdk6:
-    image: sjj050121014/jdk6:1.0
+  jdk7-debug:
+    image: sjj050121014/jdk7-debug:1.0
     volumes:
       - .:/root
     command: sh run.sh
