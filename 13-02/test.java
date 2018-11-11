@@ -1,4 +1,7 @@
- private static Vector<Integer> vector = new Vector<Integer>();
+import java.util.Vector;
+
+public class test{
+    private static Vector<Integer> vector = new Vector<Integer>();
 
     public static void main(String[] args) {
         while (true) {
@@ -32,3 +35,4 @@
         }
     }
 
+}
