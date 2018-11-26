@@ -1,0 +1,1 @@
+javac -encoding utf8 AtomicTest.java && java AtomicTest
